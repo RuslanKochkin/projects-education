@@ -26,6 +26,9 @@ public class Main {
         System.out.println(sprinter);
         sprinter.dropPassenger("Ruslan");
         System.out.println(sprinter);
+        Ship spirulina = new Ship("Arkacha", "Spirulina", 90, passengers, 60);
+        spirulina.captainGreeting();
+
 
 
 

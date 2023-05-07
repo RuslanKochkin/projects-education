@@ -23,7 +23,7 @@ import java.util.List;
 //captainGreeting() - метод выводит в консоль фразу "Капитан <имя капитана>
 // приветствует вас на борту <название транспортного средства>"
 public class Transport {
-    private String title;
+    public String title;
     private int capaciti;
     private List<Passenger> passengers = new ArrayList<>();
     private double speed;
@@ -33,6 +33,10 @@ public class Transport {
         this.capaciti = capaciti;
         this.passengers = passengers;
         this.speed = speed;
+    }
+
+    public String getTitle() {
+        return title;
     }
 
     public int getCapaciti() {
